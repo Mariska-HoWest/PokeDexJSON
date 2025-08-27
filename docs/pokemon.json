@@ -1,156 +1,218 @@
+[
   {
     "id": 1,
     "name": "Bulbasaur",
     "generation": 1,
-    "types": ["Grass", "Poison"],
+    "types": [ "Grass", "Poison" ],
     "height": 0.7,
     "weight": 6.9,
     "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
-    "stats": {"hp": 45, "attack": 49, "defense": 49, "speed": 45},
+    "stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "speed": 45
+    },
     "legendary": false
   },
   {
     "id": 4,
     "name": "Charmander",
     "generation": 1,
-    "types": ["Fire"],
+    "types": [ "Fire" ],
     "height": 0.6,
     "weight": 8.5,
     "description": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
-    "stats": {"hp": 39, "attack": 52, "defense": 43, "speed": 65},
+    "stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "speed": 65
+    },
     "legendary": false
   },
   {
     "id": 7,
     "name": "Squirtle",
     "generation": 1,
-    "types": ["Water"],
+    "types": [ "Water" ],
     "height": 0.5,
     "weight": 9.0,
     "description": "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth.",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
-    "stats": {"hp": 44, "attack": 48, "defense": 65, "speed": 43},
+    "stats": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "speed": 43
+    },
     "legendary": false
   },
   {
     "id": 150,
     "name": "Mewtwo",
     "generation": 1,
-    "types": ["Psychic"],
+    "types": [ "Psychic" ],
     "height": 2.0,
     "weight": 122.0,
     "description": "It was created by a scientist after years of horrific gene splicing and DNA engineering experiments.",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
-    "stats": {"hp": 106, "attack": 110, "defense": 90, "speed": 130},
+    "stats": {
+      "hp": 106,
+      "attack": 110,
+      "defense": 90,
+      "speed": 130
+    },
     "legendary": true
   },
   {
     "id": 152,
     "name": "Chikorita",
     "generation": 2,
-    "types": ["Grass"],
+    "types": [ "Grass" ],
     "height": 0.9,
     "weight": 6.4,
     "description": "Its pleasantly aromatic leaf has the ability to check the humidity and temperature.",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/152.png",
-    "stats": {"hp": 45, "attack": 49, "defense": 65, "speed": 45},
+    "stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 65,
+      "speed": 45
+    },
     "legendary": false
   },
   {
     "id": 155,
     "name": "Cyndaquil",
     "generation": 2,
-    "types": ["Fire"],
+    "types": [ "Fire" ],
     "height": 0.5,
     "weight": 7.9,
     "description": "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/155.png",
-    "stats": {"hp": 39, "attack": 52, "defense": 43, "speed": 65},
+    "stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "speed": 65
+    },
     "legendary": false
   },
   {
     "id": 158,
     "name": "Totodile",
     "generation": 2,
-    "types": ["Water"],
+    "types": [ "Water" ],
     "height": 0.6,
     "weight": 9.5,
     "description": "Its powerful, developed jaws are capable of crushing anything.",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/158.png",
-    "stats": {"hp": 50, "attack": 65, "defense": 64, "speed": 43},
+    "stats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 64,
+      "speed": 43
+    },
     "legendary": false
   },
   {
     "id": 249,
     "name": "Lugia",
     "generation": 2,
-    "types": ["Psychic", "Flying"],
+    "types": [ "Psychic", "Flying" ],
     "height": 5.2,
     "weight": 216.0,
     "description": "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/249.png",
-    "stats": {"hp": 106, "attack": 90, "defense": 130, "speed": 110},
+    "stats": {
+      "hp": 106,
+      "attack": 90,
+      "defense": 130,
+      "speed": 110
+    },
     "legendary": true
   },
   {
     "id": 252,
     "name": "Treecko",
     "generation": 3,
-    "types": ["Grass"],
+    "types": [ "Grass" ],
     "height": 0.5,
     "weight": 5.0,
     "description": "Small but agile, Treecko is known for its calm and collected nature.",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/252.png",
-    "stats": {"hp": 40, "attack": 45, "defense": 35, "speed": 70},
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "speed": 70
+    },
     "legendary": false
   },
   {
     "id": 255,
     "name": "Torchic",
     "generation": 3,
-    "types": ["Fire"],
+    "types": [ "Fire" ],
     "height": 0.4,
     "weight": 2.5,
     "description": "Torchic sticks with its Trainer, following behind with unsteady steps.",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/255.png",
-    "stats": {"hp": 45, "attack": 60, "defense": 40, "speed": 45},
+    "stats": {
+      "hp": 45,
+      "attack": 60,
+      "defense": 40,
+      "speed": 45
+    },
     "legendary": false
   },
   {
     "id": 258,
     "name": "Mudkip",
     "generation": 3,
-    "types": ["Water"],
+    "types": [ "Water" ],
     "height": 0.4,
     "weight": 7.6,
     "description": "The fin on its head acts as a radar, picking up sound waves and currents in the water.",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/258.png",
-    "stats": {"hp": 50, "attack": 70, "defense": 50, "speed": 40},
+    "stats": {
+      "hp": 50,
+      "attack": 70,
+      "defense": 50,
+      "speed": 40
+    },
     "legendary": false
   },
   {
     "id": 384,
     "name": "Rayquaza",
     "generation": 3,
-    "types": ["Dragon", "Flying"],
+    "types": [ "Dragon", "Flying" ],
     "height": 7.0,
     "weight": 206.5,
     "description": "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png",
     "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/384.png",
-    "stats": {"hp": 105, "attack": 150, "defense": 90, "speed": 95},
+    "stats": {
+      "hp": 105,
+      "attack": 150,
+      "defense": 90,
+      "speed": 95
+    },
     "legendary": true
   }
+]
