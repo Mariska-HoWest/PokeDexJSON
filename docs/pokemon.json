@@ -1,48 +1,54 @@
-[
-    {
-        "id": 1,
-        "name": "Bulbasaur",
-        "type": ["Grass", "Poison"]
-    },
-    {
-        "id": 2,
-        "name": "Ivysaur",
-        "type": ["Grass", "Poison"]
-    },
-    {
-        "id": 3,
-        "name": "Venusaur"
-        ,
-        "type": ["Grass", "Poison"]
-    },
-    {
-        "id": 4,
-        "name": "Charmander",
-        "type": "Fire"
-    },
-    {
-        "id": 5,
-        "name": "Charmeleon",
-        "type": "Fire"
-    },
-    {
-        "id": 6,
-        "name": "Charizard",
-        "type": ["Fire", "Flying"]
-    },
-    {
-        "id": 7,
-        "name": "Squirtle",
-        "type": "Water"
-    },
-    {
-        "id": 8,
-        "name": "Wartortle",
-        "type": "Water"
-    },
-    {
-        "id": 9,
-        "name": "Blastoise",
-        "type": "Water"
-    }
-]
+const dataPokemon = [
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "generation": 1,
+    "types": ["Grass", "Poison"],
+    "height": 0.7,
+    "weight": 6.9,
+    "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+    "stats": {"hp": 45, "attack": 49, "defense": 49, "speed": 45},
+    "legendary": false
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "generation": 1,
+    "types": ["Fire"],
+    "height": 0.6,
+    "weight": 8.5,
+    "description": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+    "stats": {"hp": 39, "attack": 52, "defense": 43, "speed": 65},
+    "legendary": false
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "generation": 1,
+    "types": ["Water"],
+    "height": 0.5,
+    "weight": 9.0,
+    "description": "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+    "stats": {"hp": 44, "attack": 48, "defense": 65, "speed": 43},
+    "legendary": false
+  },
+  {
+    "id": 150,
+    "name": "Mewtwo",
+    "generation": 1,
+    "types": ["Psychic"],
+    "height": 2.0,
+    "weight": 122.0,
+    "description": "It was created by a scientist after years of horrific gene splicing and DNA engineering experiments.",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
+    "stats": {"hp": 106, "attack": 110, "defense": 90, "speed": 130},
+    "legendary": true
+  }
+];
